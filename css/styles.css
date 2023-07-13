@@ -881,7 +881,7 @@ input[type="chekbox"]:checked + span{
 .chek-modal-icon{
     fill: var(--back-buttom);
 }
-.chek-q:checked + .chek-label + .chek-span{
+.chek-q:checked + .chek-label .chek-span{
     border: none;
     fill: var(--back-buttom);
     background-color: var(--chek);
