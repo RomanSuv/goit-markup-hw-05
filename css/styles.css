@@ -875,6 +875,9 @@ input[type="chekbox"]:checked + span{
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.chek-modal-icon{
+    fill: var(--back-buttom);
+}
 .chek-q:checked + .chek-label + .chek-span{
     border: none;
     fill: var(--back-buttom);
