@@ -875,12 +875,8 @@ input[type="chekbox"]:checked + span{
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input-modal:focus + .form-icon{
-    fill: #4D5AE5;
-}
 .chek-q:checked + .chek-label + .chek-span{
     border: none;
-    fill: var(--ocean, #404BBF);
-stroke-width: 1px;
-stroke: var(--ocean, #404BBF);
+    fill: var(--back-buttom);
+    background-color: var(--chek);
 }
